@@ -26,7 +26,7 @@ end
 
 def printer(attendees)
   batch_badge_creator(attendees).each do |attendees|
-    puts "Hello, my name is #{attendee}."
+    puts "Hello, my name is #{attendees}."
   end
   room_number = 1
   assign_rooms(attendees).each do |attendee|
