@@ -31,4 +31,4 @@ def printer(attendees)
       puts "Hello, #{attendee}! You'll be assigned to room #{room_number}!"
   end
 
-end 
+end
