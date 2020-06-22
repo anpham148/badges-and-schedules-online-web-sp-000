@@ -18,4 +18,8 @@ def assign_rooms(attendees)
   room_number = 1
   attendess.each do |attendee|
     my_var = "Hello, #{name}! You'll be assigned to room #{room_number}!"
+    room_number += 1
+    my_arr.push(my_var)
+  end
+  my_arr
 end
