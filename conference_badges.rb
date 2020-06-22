@@ -5,4 +5,10 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
+  my_arr = []
+  attendees.each do |attendee|
+    my_var = "Hello, my name is #{attendee}."
+    my_arr.push(my_var)
+  end
+  my_arr
 end
